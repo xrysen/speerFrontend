@@ -1,5 +1,6 @@
 import "./Hero.css";
 import { useEffect, useState } from "react";
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 
 const Hero = () => {
   const [currImage, setCurrImage] = useState(2);
@@ -10,29 +11,15 @@ const Hero = () => {
     "https://cdn.pixabay.com/photo/2016/11/18/15/44/audience-1835431_960_720.jpg",
   ];
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     if (currImage === 2) {
-  //       setCurrImage(0);
-  //     } else {
-  //       setCurrImage(currImage + 1);
-  //     }
-  //   }, 5000)
-  // }, [currImage])
-
   return (
-    <div
-      className="hero-container"
-      style={{ backgroundImage: `url(${images[currImage]})` }}
-    >
-      <div className="hero-text">
-        <h1>INTERACTIVE CONCERT EXPERIENCE</h1>
-        <p>
-          Experience your favourite artists like never before and from the
-          comfort of your own home.
-        </p>
-      </div>
-    </div>
+    <CarouselProvider totalSlides={3} naturalSlideWidth={100}
+    naturalSlideHeight={125}>
+      <Slider>
+        <Slide index={0}><img src = {images[0]} alt="Carousel"/></Slide>
+        <Slide index={1}><img src = {images[1]} alt="Carousel"/></Slide>
+        <Slide index={2}><img src = {images[2]} alt="Carousel"/></Slide>
+      </Slider>
+    </CarouselProvider>
   );
 };
 
