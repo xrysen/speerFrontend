@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import SectionRed from "./Components/SectionRed";
 import SectionYellow from "./Components/SectionYellow";
 import Perks from "./Components/Perks";
+import Reviews from "./Components/Reviews";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SectionRed />
       <SectionYellow />
       <Perks />
+      <Reviews />
     </div>
   );
 }
