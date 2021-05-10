@@ -3,3 +3,9 @@
   height: 900px;
   background-color: #D34848;
 }
+
+.top-button {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
