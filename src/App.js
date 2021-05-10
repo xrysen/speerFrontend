@@ -6,6 +6,7 @@ import SectionYellow from "./Components/SectionYellow";
 import Perks from "./Components/Perks";
 import Reviews from "./Components/Reviews";
 import GetNow from "./Components/GetNow";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Perks />
       <Reviews />
       <GetNow />
+      <Footer />
     </div>
   );
 }
