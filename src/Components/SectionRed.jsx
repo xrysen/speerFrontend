@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 import "./SectionRed.css";
-import speakers from "../assets/speakers.png";
-import NewBurger from "./NewBurger";
 import Button from "./Button";
+import speakers from "../assets/speakers.png";
+import TopNav from "./TopNav";
 import music from "../assets/music/island-music.mp3";
 
 const SectionRed = () => {
@@ -23,10 +23,7 @@ const SectionRed = () => {
 
   return (
     <div className="red-container">
-      <NewBurger bgColour = "#D34848" liColour="red-li" /> 
-      <div className="top-button">
-        <Button label="TRY IT NOW" background="white" text="#D34848" />
-      </div>
+      <TopNav bgColour = "#D34848" liColour="red-li" />
       <div className="content-container">
         <div className="info">
           <h1>SUPERIOR SOUND</h1>
