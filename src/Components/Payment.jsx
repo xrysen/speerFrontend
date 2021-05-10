@@ -4,8 +4,13 @@ import NewBurger from "./NewBurger";
 import CountrySelect from "./CountrySelect";
 import MonthSelector from "./MonthSelector";
 import LiquidButton from "./LiquidButton";
+import { useEffect } from "react";
 
 const Payment = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  
   return (
     <div className="payment-container">
       <div className="payment-top-nav">

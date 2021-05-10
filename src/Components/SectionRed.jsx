@@ -5,7 +5,7 @@ import speakers from "../assets/speakers.png";
 import TopNav from "./TopNav";
 import music from "../assets/music/island-music.mp3";
 
-const SectionRed = () => {
+const SectionRed = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [buttonDown, setButtonDown] = useState("2px");
   const ref = useRef();
@@ -23,7 +23,7 @@ const SectionRed = () => {
 
   return (
     <div className="red-container">
-      <TopNav bgColour = "#D34848" liColour="red-li" />
+      <TopNav bgColour = "#D34848" liColour="red-li" onClick = {props.onClick} landing={props.landing} />
       <div className="content-container">
         <div className="info">
           <h1>SUPERIOR SOUND</h1>

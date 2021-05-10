@@ -3,8 +3,14 @@ import NewBurger from "./NewBurger";
 import Footer from "./Footer";
 import SubOption from "./SubOption";
 import Perk from "./Perk";
+import { useEffect } from "react";
 
-const Pricing = () => {
+const Pricing = (props) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <div className="pricing-container">
       <div className="pricing-nav">
@@ -13,6 +19,7 @@ const Pricing = () => {
           default="white"
           bgColour="black"
           liColour="black-li"
+          landing = {props.landing}
         />
       </div>
       <div className="pricing-content">
@@ -23,7 +30,7 @@ const Pricing = () => {
         </p>
       </div>
       <div className="pricing-options">
-        <SubOption
+        <SubOption onClick = {props.onClick}
           option="BASIC"
           colour="#D34848"
           subOption="MONTHLY"
@@ -35,7 +42,7 @@ const Pricing = () => {
           option5="It's so good"
           option6="Features"
         />
-        <SubOption
+        <SubOption onClick = {props.onClick}
           option="ADVANCED"
           colour="#FFB33F"
           subOption="YEARLY"
@@ -47,7 +54,7 @@ const Pricing = () => {
           option5="It's so so good"
           option6="More features"
         />
-        <SubOption
+        <SubOption onClick = {props.onClick}
           option="PRO"
           colour="#1FE1E9"
           subOption="YEARLY"

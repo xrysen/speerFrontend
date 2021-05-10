@@ -3,10 +3,10 @@ import TopNav from "./TopNav";
 import speakers from "../assets/speakers2.png";
 import Review from "./Review";
 
-const Reviews = () => {
+const Reviews = (props) => {
   return (
     <div className="reviews-container">
-      <TopNav bgColour="#1FE1E9" liColour="blue-li" />
+      <TopNav bgColour="#1FE1E9" liColour="blue-li" onClick = {props.onClick} />
       <h1 className="review-header">REVIEWS</h1>
       <div className="reviews-content">
         <img style = {{ position: "relative", bottom: "80px"}} src={speakers} alt="Speakers"  />

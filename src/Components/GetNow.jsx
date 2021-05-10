@@ -2,11 +2,11 @@ import "./GetNow.css";
 import NewBurger from "./NewBurger";
 import LiquidButton from "./LiquidButton";
 
-const GetNow = () => {
+const GetNow = (props) => {
   return (
     <div className="get-now-container">
       <div className="get-now-nav">
-        <NewBurger liColour="yellow-li" />
+        <NewBurger liColour="yellow-li"  />
       </div>
       <div className="get-now-content-container">
         <div className="get-now-content">
@@ -15,7 +15,7 @@ const GetNow = () => {
             Purchase and download the app.
           </p>
         </div>
-        <LiquidButton label="TRY IT NOW" />
+        <LiquidButton label="TRY IT NOW" onClick = {props.onClick} />
       </div>
     </div>
   );

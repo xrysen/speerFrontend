@@ -57,7 +57,7 @@ const NewBurger = (props) => {
       <div className="company">EXP|CON</div>
       {open ? (
         <ul className="burger-menu">
-          <li className = {props.liColour}>WHAT IS IT?</li>
+          <li className = {props.liColour} onClick={props.landing}>WHAT IS IT?</li>
           <li className = {props.liColour}>PERKS</li>
           <li className = {props.liColour}>PRICING</li>
         </ul>

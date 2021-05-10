@@ -12,7 +12,7 @@ import { useState } from "react";
 import { AnimateOnChange } from "react-animation";
 
 function App() {
-  const [mode, setMode] = useState("Pricing");
+  const [mode, setMode] = useState("Landing");
 
   const changeView = (view) => {
     setMode(view);
@@ -24,11 +24,11 @@ function App() {
         {mode === "Landing" && (
           <>
             <Hero />
-            <SectionRed />
-            <SectionYellow />
-            <Perks />
-            <Reviews />
-            <GetNow />
+            <SectionRed onClick = {() => changeView("Pricing")} landing = {()=> changeView("Landing")} />
+            <SectionYellow onClick = {() => changeView("Pricing")} />
+            <Perks onClick = {() => changeView("Pricing")}/>
+            <Reviews onClick = {() => changeView("Pricing")}/>
+            <GetNow onClick = {() => changeView("Pricing")}/>
             <Footer />
           </>
         )}
@@ -36,7 +36,7 @@ function App() {
           <Payment />
         )}
         {mode === "Pricing" && (
-          <Pricing />
+          <Pricing onClick = {()=> changeView("Payment")} />
         )}
       </AnimateOnChange>
 

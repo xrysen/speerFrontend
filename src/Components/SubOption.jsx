@@ -44,7 +44,7 @@ const SubOption = (props) => {
         </li>
       </ul>
       <div className="cta-button">
-        <Button background={props.colour} label="SELECT" />
+        <Button background={props.colour} label="SELECT" onClick = {props.onClick} />
       </div>
     </div>
   );
