@@ -80,3 +80,21 @@ label {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.input-full-width {
+  width: 100%;
+}
+
+input, textarea {
+ 
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+input:focus, textarea:focus {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border-bottom: 3px solid #2F1FE9;
+}
