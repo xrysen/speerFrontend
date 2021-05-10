@@ -28,3 +28,21 @@
 .info h1 {
   color: white;
 }
+
+.music-start {
+  position: absolute;
+  bottom: 0px;
+  right: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  width: 120px;
+  height: 120px;
+}
+
+.music-start:hover {
+  cursor: pointer;
+}

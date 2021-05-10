@@ -18,6 +18,9 @@ const SectionRed = () => {
         </div>
         <div className = "speakers">
           <img src={speakers} alt="speakers" />
+          <div className = "music-start">
+            CLICK
+          </div>
         </div>
       </div>
     </div>
