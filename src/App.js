@@ -1,13 +1,13 @@
 import "./App.css";
-import Hero from "./Components/Hero";
-import SectionRed from "./Components/SectionRed";
-import SectionYellow from "./Components/SectionYellow";
-import Perks from "./Components/Perks";
-import Reviews from "./Components/Reviews";
-import GetNow from "./Components/GetNow";
+import Hero from "./Components/Landing/Hero";
+import SectionRed from "./Components/Landing/SectionRed";
+import SectionYellow from "./Components/Landing/SectionYellow";
+import Perks from "./Components/Landing/Perks";
+import Reviews from "./Components/Landing/Reviews";
+import GetNow from "./Components/Landing/GetNow";
 import Footer from "./Components/Footer";
-import Payment from "./Components/Payment";
-import Pricing from "./Components/Pricing";
+import Payment from "./Components/Payment/Payment";
+import Pricing from "./Components/Pricing/Pricing";
 import { useState } from "react";
 import { AnimateOnChange } from "react-animation";
 

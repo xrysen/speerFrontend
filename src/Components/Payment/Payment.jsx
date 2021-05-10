@@ -1,9 +1,9 @@
 import "./Payment.css";
-import Footer from "./Footer";
-import NewBurger from "./NewBurger";
+import Footer from "../Footer";
+import NewBurger from "../NewBurger";
 import CountrySelect from "./CountrySelect";
 import MonthSelector from "./MonthSelector";
-import LiquidButton from "./LiquidButton";
+import LiquidButton from "../LiquidButton";
 import { useEffect } from "react";
 
 const Payment = (props) => {

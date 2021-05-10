@@ -1,5 +1,5 @@
 import "./SectionYellow.css";
-import TopNav from "./TopNav";
+import TopNav from "../TopNav";
 
 const SectionYellow = (props) => {
   return (

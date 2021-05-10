@@ -1,6 +1,6 @@
 import "./GetNow.css";
-import NewBurger from "./NewBurger";
-import LiquidButton from "./LiquidButton";
+import NewBurger from "../NewBurger";
+import LiquidButton from "../LiquidButton";
 
 const GetNow = (props) => {
   return (

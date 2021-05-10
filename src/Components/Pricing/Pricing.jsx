@@ -1,8 +1,8 @@
 import "./Pricing.css";
-import NewBurger from "./NewBurger";
-import Footer from "./Footer";
+import NewBurger from "../NewBurger";
+import Footer from "../Footer";
 import SubOption from "./SubOption";
-import Perk from "./Perk";
+import Perk from "../Landing/Perk";
 import { useEffect } from "react";
 
 const Pricing = (props) => {

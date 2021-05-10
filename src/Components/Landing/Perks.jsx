@@ -1,5 +1,5 @@
 import "./Perks.css";
-import TopNav from "./TopNav";
+import TopNav from "../TopNav";
 import Perk from "./Perk";
 
 const Perks = (props) => {

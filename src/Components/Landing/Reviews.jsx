@@ -1,6 +1,6 @@
 import "./Reviews.css";
-import TopNav from "./TopNav";
-import speakers from "../assets/speakers2.png";
+import TopNav from "../TopNav";
+import speakers from "../../assets/speakers2.png";
 import Review from "./Review";
 
 const Reviews = (props) => {

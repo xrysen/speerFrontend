@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
 import "./SectionRed.css";
-import Button from "./Button";
-import speakers from "../assets/speakers.png";
-import TopNav from "./TopNav";
-import music from "../assets/music/island-music.mp3";
+import Button from "../Button";
+import speakers from "../../assets/speakers.png";
+import TopNav from "../TopNav";
+import music from "../../assets/music/island-music.mp3";
 
 const SectionRed = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);

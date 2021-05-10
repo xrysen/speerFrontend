@@ -1,6 +1,6 @@
 import "./Hero.css";
-import NewBurger from "./NewBurger";
-import LiquidButton from "./LiquidButton";
+import NewBurger from "../NewBurger";
+import LiquidButton from "../LiquidButton";
 
 const Hero = () => {
   const images = [
