@@ -29,3 +29,11 @@ li:hover {
 .blue-li:hover {
   color: #1FE1E9;
 }
+
+.company {
+  position: relative;
+  top: 145px;
+  left: 180px;
+  font-weight: bold;
+  font-size: 30px;
+}
