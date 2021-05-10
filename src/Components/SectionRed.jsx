@@ -12,12 +12,12 @@ const SectionRed = () => {
   const playSong = () => {
     ref.current.play();
     setIsPlaying(true);
-  }
+  };
 
   const pauseSong = () => {
     ref.current.pause();
     setIsPlaying(false);
-  }
+  };
 
   return (
     <div className="red-container">
@@ -33,8 +33,12 @@ const SectionRed = () => {
         </div>
         <div className="speakers">
           <img src={speakers} alt="speakers" />
-          <div className="music-start" onClick = {isPlaying ? pauseSong : playSong}> 
-           <audio ref = {ref} src = {music} />
+          <div
+            className="music-start"
+            onClick={isPlaying ? pauseSong : playSong}
+            
+          >
+            <audio ref={ref} src={music} />
             CLICK
           </div>
         </div>

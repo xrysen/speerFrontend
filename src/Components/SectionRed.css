@@ -30,9 +30,9 @@
 }
 
 .music-start {
-  position: absolute;
-  bottom: 0px;
-  right: 330px;
+  position: relative;
+  bottom: 100px;
+  left: 150px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -29,6 +29,10 @@
   left: 100px;
 }
 
+.icon-position:hover {
+  cursor: pointer;
+}
+
 .company {
   position: absolute;
   top: 150px;
