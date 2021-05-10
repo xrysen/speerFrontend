@@ -11,7 +11,7 @@ const NewBurger = (props) => {
     right: "80px",
     bottom: "80px",
     backgroundColor: props.bgColour,
-    color: "white",
+    color: props.default || "white",
     width: "100px",
     height: "100px",
     borderRadius: "50%",
