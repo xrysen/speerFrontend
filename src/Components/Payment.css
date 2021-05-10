@@ -7,7 +7,7 @@
 }
 
 .payment-content {
-  margin-left: 100px;
+  margin-left: 20vw;
 }
 
 .payment-radio-label {
@@ -50,13 +50,14 @@ label {
 
 .select-plan {
   padding-bottom: 100px;
+  text-align: left;
 }
 
 
 .personal-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
  
 }
 
@@ -97,4 +98,15 @@ input:focus, textarea:focus {
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
   border-bottom: 3px solid #2F1FE9;
+}
+
+.card-info {
+  padding-right: 20vw;
+}
+
+.acknowledgement {
+  margin-top: 50px;
+  margin-bottom: 200px;
+  font-size: 18px;
+  width: 25%;
 }

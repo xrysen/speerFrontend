@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import NewBurger from "./NewBurger";
 import CountrySelect from "./CountrySelect";
 import MonthSelector from "./MonthSelector";
+import LiquidButton from "./LiquidButton";
 
 const Payment = (props) => {
   return (
@@ -93,9 +94,19 @@ const Payment = (props) => {
                 <MonthSelector />
                 <input type="number" min="1900" max="2099" step="1" />
               </div>
-              <label className="label-header">CCV</label><br />
-              <input type = "number" className="input-full-width" />
+              <label className="label-header">CCV</label>
+              <br />
+              <input type="number" className="input-full-width" />
             </div>
+          </div>
+
+          <div className="acknowledgement">
+            <p>
+              By continuing, I acknowledge that I've read and agree to the Terms
+              of Service & Privacy Policy.
+            </p>
+            <br />
+            <LiquidButton label="DOWNLOAD" />
           </div>
         </form>
       </div>
