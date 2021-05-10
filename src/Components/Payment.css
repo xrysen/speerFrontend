@@ -13,7 +13,7 @@
 .payment-radio-label {
   font-weight: bold;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 50px;
 }
 
 input[type='radio']:after {
@@ -42,4 +42,41 @@ input[type='radio']:checked:after {
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
+}
+
+label {
+  font-size: 20px;
+}
+
+.select-plan {
+  padding-bottom: 100px;
+}
+
+
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+.billing-header {
+  padding-bottom: 30px;
+}
+
+.label-header {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.payment-city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment-city-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
