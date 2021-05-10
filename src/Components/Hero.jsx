@@ -1,7 +1,6 @@
 import "./Hero.css";
 import NewBurger from "./NewBurger";
 import LiquidButton from "./LiquidButton";
-import { useState, useEffect } from "react";
 
 const Hero = () => {
   const images = [
@@ -10,12 +9,10 @@ const Hero = () => {
     "https://cdn.pixabay.com/photo/2018/01/15/21/50/concert-3084876_960_720.jpg",
   ];
 
-  const [currImage, setCurimage] = useState(0);
-
   return (
     <div
       className="hero-container"
-      style={{ backgroundImage: `url(${images[currImage]})` }}
+      style={{ backgroundImage: `url(${images[0]})` }}
     >
       <div className="hero-nav">
         <NewBurger liColour="yellow-li" />

@@ -9,7 +9,7 @@ const Payment = (props) => {
   return (
     <div className="payment-container">
       <div className="payment-top-nav">
-        <NewBurger default="black" bgColour="white" liColour="yellow-li" />
+        <NewBurger default="black" bgColour="#D34848" liColour="red-li" />
       </div>
       <div className="payment-content">
         <h1 style={{ paddingBottom: "50px" }}>PAYMENT</h1>

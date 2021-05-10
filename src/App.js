@@ -11,7 +11,7 @@ import { useState } from "react";
 import { AnimateOnChange } from "react-animation";
 
 function App() {
-  const [mode, setMode] = useState("Payment");
+  const [mode, setMode] = useState("Landing");
 
   const changeView = (view) => {
     setMode(view);
