@@ -4,15 +4,15 @@ import LiquidButton from "./LiquidButton";
 
 const Hero = () => {
   const images = [
-    "https://cdn.pixabay.com/photo/2015/05/15/14/50/concert-768722_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2017/03/27/15/13/man-2179313_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2015/10/12/15/09/concert-984237_960_720.jpg",
     "https://cdn.pixabay.com/photo/2018/01/15/21/50/concert-3084876_960_720.jpg",
   ];
 
   return (
     <div
       className="hero-container"
-      style={{ backgroundImage: `url(${images[2]})` }}
+      style={{ backgroundImage: `url(${images[1]})` }}
     >
       <div className="hero-nav">
         <NewBurger liColour="yellow-li" />
