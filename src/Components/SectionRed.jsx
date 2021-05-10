@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import "./SectionRed.css";
 import speakers from "../assets/speakers.png";
-import Burger from "./Burger";
 import NewBurger from "./NewBurger";
 import Button from "./Button";
 import music from "../assets/music/island-music.mp3";

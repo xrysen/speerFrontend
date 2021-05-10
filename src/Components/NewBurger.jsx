@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./NewBurger.css";
 import { useState } from "react";
-import { text } from "@fortawesome/fontawesome-svg-core";
 
 const NewBurger = (props) => {
   const [open, setOpen] = useState(false);

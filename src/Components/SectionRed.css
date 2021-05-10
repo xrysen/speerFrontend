@@ -20,9 +20,10 @@
 .content-container {
   position: absolute;
   top: 200px;
+  padding-left: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
