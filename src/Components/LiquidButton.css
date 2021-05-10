@@ -1,0 +1,13 @@
+.liquid-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 80px;
+  border-radius: 50px;
+  background: rgb(31,225,233);
+  background: linear-gradient(90deg, rgba(31,225,233,1) 0%, rgba(146,60,147,1) 50%, rgba(253,173,64,1) 100%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

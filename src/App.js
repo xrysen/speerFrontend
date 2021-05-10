@@ -5,6 +5,7 @@ import SectionRed from "./Components/SectionRed";
 import SectionYellow from "./Components/SectionYellow";
 import Perks from "./Components/Perks";
 import Reviews from "./Components/Reviews";
+import GetNow from "./Components/GetNow";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SectionYellow />
       <Perks />
       <Reviews />
+      <GetNow />
     </div>
   );
 }
