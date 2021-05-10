@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/speerFrontend/static/css/main.3d5fb39f.chunk.css",
+    "main.js": "/speerFrontend/static/js/main.26195714.chunk.js",
+    "main.js.map": "/speerFrontend/static/js/main.26195714.chunk.js.map",
+    "runtime-main.js": "/speerFrontend/static/js/runtime-main.2d3d74da.js",
+    "runtime-main.js.map": "/speerFrontend/static/js/runtime-main.2d3d74da.js.map",
+    "static/js/2.e3af4c2c.chunk.js": "/speerFrontend/static/js/2.e3af4c2c.chunk.js",
+    "static/js/2.e3af4c2c.chunk.js.map": "/speerFrontend/static/js/2.e3af4c2c.chunk.js.map",
+    "static/js/3.6832bfbb.chunk.js": "/speerFrontend/static/js/3.6832bfbb.chunk.js",
+    "static/js/3.6832bfbb.chunk.js.map": "/speerFrontend/static/js/3.6832bfbb.chunk.js.map",
+    "index.html": "/speerFrontend/index.html",
+    "static/css/main.3d5fb39f.chunk.css.map": "/speerFrontend/static/css/main.3d5fb39f.chunk.css.map",
+    "static/js/2.e3af4c2c.chunk.js.LICENSE.txt": "/speerFrontend/static/js/2.e3af4c2c.chunk.js.LICENSE.txt",
+    "static/media/island-music.70543fde.mp3": "/speerFrontend/static/media/island-music.70543fde.mp3",
+    "static/media/speakers.0a1dc861.png": "/speerFrontend/static/media/speakers.0a1dc861.png",
+    "static/media/speakers2.51a9881a.png": "/speerFrontend/static/media/speakers2.51a9881a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d3d74da.js",
+    "static/js/2.e3af4c2c.chunk.js",
+    "static/css/main.3d5fb39f.chunk.css",
+    "static/js/main.26195714.chunk.js"
+  ]
+}
