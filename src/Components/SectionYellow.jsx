@@ -1,10 +1,12 @@
 import "./SectionYellow.css";
-import Burger2 from "./Burger2";
+import NewBurger from "./NewBurger";
 
 const SectionYellow = () => {
-  return <div className="yellow-container">
-    <Burger2 />
-  </div>;
+  return (
+    <div className="yellow-container">
+      <NewBurger />
+    </div>
+  );
 };
 
 export default SectionYellow;
