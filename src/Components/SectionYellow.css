@@ -5,3 +5,11 @@
   overflow: hidden;
   z-index: 1;
 }
+
+.yellow-container-bg {
+  background-image: url("https://cdn.pixabay.com/photo/2018/01/15/21/50/concert-3084876_960_720.jpg");
+  position: absolute;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 2;
+}
