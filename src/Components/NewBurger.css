@@ -1,0 +1,27 @@
+.burger-icon {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.burger-menu {
+  position: absolute;
+  left: 70px;
+  top: 200px;
+  font-size: 30px;
+  list-style-type: none;
+  font-weight: bold;
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.red-li:hover {
+  color: #D34848;
+}
+
+.yellow-li:hover {
+  color: #FFB33F;
+}

@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import "./SectionRed.css";
 import speakers from "../assets/speakers.png";
 import Burger from "./Burger";
+import NewBurger from "./NewBurger";
 import Button from "./Button";
 import music from "../assets/music/island-music.mp3";
 
@@ -23,7 +24,7 @@ const SectionRed = () => {
 
   return (
     <div className="red-container">
-      <Burger />
+      <NewBurger bgColour = "#D34848" liColour="red-li" /> 
       <div className="top-button">
         <Button label="TRY IT NOW" background="white" text="#D34848" />
       </div>
