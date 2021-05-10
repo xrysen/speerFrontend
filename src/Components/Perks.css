@@ -7,8 +7,6 @@
 }
 
 .perks-container {
-  position: absolute;
-  top: 2000px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -17,9 +15,9 @@
 
 .perk-header {
   color: white;
-  position: absolute;
+  position: relative;
   font-weight: bold;
   font-size: 35px;
-  top: 1900px;
+  bottom: 100px;
   left: 250px;
 }

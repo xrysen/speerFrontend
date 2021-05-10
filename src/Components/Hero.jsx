@@ -1,9 +1,6 @@
 import "./Hero.css";
-import { useEffect, useState } from "react";
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 
 const Hero = () => {
-  const [currImage, setCurrImage] = useState(2);
 
   const images = [
     "https://cdn.pixabay.com/photo/2015/05/15/14/50/concert-768722_960_720.jpg",
@@ -12,14 +9,9 @@ const Hero = () => {
   ];
 
   return (
-    <CarouselProvider totalSlides={3} naturalSlideWidth={100}
-    naturalSlideHeight={125}>
-      <Slider>
-        <Slide index={0}><img src = {images[0]} alt="Carousel"/></Slide>
-        <Slide index={1}><img src = {images[1]} alt="Carousel"/></Slide>
-        <Slide index={2}><img src = {images[2]} alt="Carousel"/></Slide>
-      </Slider>
-    </CarouselProvider>
+    <div className = "hero-container">
+
+    </div>
   );
 };
 
