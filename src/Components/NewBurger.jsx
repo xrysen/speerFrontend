@@ -15,6 +15,7 @@ const NewBurger = (props) => {
     width: "100px",
     height: "100px",
     borderRadius: "50%",
+    zIndex: 3,
     transition: "all 0.2s ease-in-out",
   };
 
@@ -22,7 +23,7 @@ const NewBurger = (props) => {
     position: "relative",
     right: "80px",
     bottom: "80px",
-    zIndex: 0,
+    zIndex: 3,
     color: props.bgColour,
     backgroundColor: "black",
     width: "400px",

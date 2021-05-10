@@ -1,0 +1,15 @@
+.perk-container {
+  width: 15%;
+}
+
+.perk-divider {
+  width: 75px;
+  height: 2px;
+  border-bottom: 2px solid;
+  margin-bottom: 20px;
+}
+
+.perk-description {
+  color: white;
+  font-size: 28px;
+}
