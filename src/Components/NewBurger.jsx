@@ -25,7 +25,7 @@ const NewBurger = (props) => {
     bottom: "80px",
     zIndex: 3,
     color: props.bgColour,
-    backgroundColor: "black",
+    backgroundColor: props.circleBg || "black",
     width: "360px",
     height: "360px",
     borderRadius: "50%",

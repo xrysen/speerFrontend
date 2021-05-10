@@ -30,6 +30,10 @@ li:hover {
   color: #1FE1E9;
 }
 
+.black-li:hover {
+  color: black;
+}
+
 .company {
   position: relative;
   top: 145px;

@@ -7,11 +7,12 @@ import Reviews from "./Components/Reviews";
 import GetNow from "./Components/GetNow";
 import Footer from "./Components/Footer";
 import Payment from "./Components/Payment";
+import Pricing from "./Components/Pricing";
 import { useState } from "react";
 import { AnimateOnChange } from "react-animation";
 
 function App() {
-  const [mode, setMode] = useState("Landing");
+  const [mode, setMode] = useState("Pricing");
 
   const changeView = (view) => {
     setMode(view);
@@ -33,6 +34,9 @@ function App() {
         )}
         {mode === "Payment" && (
           <Payment />
+        )}
+        {mode === "Pricing" && (
+          <Pricing />
         )}
       </AnimateOnChange>
 

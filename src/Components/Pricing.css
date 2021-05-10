@@ -1,0 +1,32 @@
+.pricing-container {
+  background-color: black;
+  width: 100vw;
+}
+
+.pricing-nav {
+  height: 200px;
+}
+
+.pricing-content {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.call-to-action {
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+
+.pricing-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cta-button {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
