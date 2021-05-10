@@ -7,11 +7,13 @@ import music from "../assets/music/island-music.mp3";
 
 const SectionRed = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [buttonDown, setButtonDown] = useState("2px");
   const ref = useRef();
 
   const playSong = () => {
     ref.current.play();
     setIsPlaying(true);
+    setButtonDown("5px");
   };
 
   const pauseSong = () => {
@@ -36,7 +38,8 @@ const SectionRed = () => {
           <div
             className="music-start"
             onClick={isPlaying ? pauseSong : playSong}
-            
+            onMouseUp = {() => setButtonDown("2px")}
+            style = {{borderWidth: buttonDown}}
           >
             <audio ref={ref} src={music} />
             CLICK

@@ -1,7 +1,13 @@
 .red-container {
   width: 100%;
-  height: 900px;
+  height: 90vh;
   background-color: #D34848;
+}
+
+@media screen and (max-width: 1000px) {
+  .red-container {
+    height: 125vh;
+  }
 }
 
 .top-button {
@@ -17,6 +23,18 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .speakers {
+    margin-top: 100px;
+  }
 }
 
 .info {
@@ -37,10 +55,15 @@
   justify-content: center;
   align-items: center;
   border: 2px solid white;
+  font-size: 25px;
   border-radius: 50%;
   color: white;
   width: 120px;
   height: 120px;
+}
+
+.music-start:active {
+  transform: translateY(4px);
 }
 
 .music-start:hover {
