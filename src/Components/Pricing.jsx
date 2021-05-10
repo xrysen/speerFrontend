@@ -1,8 +1,8 @@
 import "./Pricing.css";
 import NewBurger from "./NewBurger";
 import Footer from "./Footer";
-import Button from "./Button";
 import SubOption from "./SubOption";
+import Perk from "./Perk";
 
 const Pricing = () => {
   return (
@@ -59,6 +59,29 @@ const Pricing = () => {
           option5="It's so so good"
           option6="More features"
         />
+      </div>
+      <div className="pricing-perks-container">
+        <div className="pricing-nav">
+          <NewBurger circleBg="black" bgColour="#D34848" liColour="red-li" />
+        </div>
+        <h1 className="pricing-perks-header">PERKS</h1>
+        <div className="pricing-perks-content">
+          <Perk
+            title="Subscription Payment Model"
+            color="white"
+            description="No commitment, cancel anytime. Never worry about forgetting a payment again!"
+          />
+          <Perk
+            title="No Fee Cancelation Policy"
+            color="white"
+            description="No commitment, cancel anytime. Never worry about forgetting a payment again!"
+          />
+          <Perk
+            title="Subscription Payment Model"
+            color="white"
+            description="No commitment, cancel anytime. Never worry about forgetting a payment again!"
+          />
+        </div>
       </div>
       <Footer />
     </div>

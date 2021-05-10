@@ -1,6 +1,7 @@
 .pricing-container {
   background-color: black;
   width: 100vw;
+ 
 }
 
 .pricing-nav {
@@ -20,6 +21,7 @@
 }
 
 .pricing-options {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -29,4 +31,24 @@
   margin-top: 20px;
   margin-left: 50px;
   margin-bottom: 50px;
+}
+
+.pricing-perks-container {
+  width: 100vw;
+  background-color:#D34848;
+  overflow: hidden;
+}
+
+.pricing-perks-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.pricing-perks-header {
+  font-weight: bold;
+  color: white;
+  margin-left: 250px;
+  margin-bottom: 100px;
 }
