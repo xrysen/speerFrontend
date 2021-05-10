@@ -5,3 +5,17 @@
   overflow: hidden;
   z-index: 1;
 }
+
+.reviews-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.review-header {
+  color: white;
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+  bottom: 50px;
+  left: 550px;
+}
